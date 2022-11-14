@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freiburg and the Black Forest region</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/50ea76f12f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="video-wrap">
+      <video
+        class=""
+        autoplay=""
+        muted=""
+        loop=""
+        playsinline=""
+        style="width: 1640px; height: auto"
+      >
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay">
+        <h1>Welcome to Freiburg and the Black Forest region</h1>
+        <h2>Where tradition meets modernity...</h2>
+        <h3 class="intro .d-sm-none .d-md-block">
+          Famous for its cuckoo clock and cake the Black Forest is a forested
+          mountain range in Germany, bounded by the Rhine valley and close to
+          the borders with France and Switzerland. Thousand years ago, the
+          Romans expanded their empire and name the region "silva nigra" which
+          "black forest" because of the density of the forest.
+        </h3>
+      </div>
+    </div>
+    <div class="container-clearfix">
+      <div class="container-1">
+        <div class="row mt-5 text-center">
+          <div class="col mb-5">
+            <img
+              src="src/blackwhite.jpg"
+              class="img-fluid mb-3 rounded"
+              alt="bollenhut"
+            />
+          </div>
+          <div class="col mb-5">
+            <img
+              src="src/test.jpg"
+              class="img-fluid mb-3 rounded"
+              alt="cuckoo"
+            />
+          </div>
+          <div class="col mb-5">
+            <img src="src/fox.jpg" class="img-fluid mb-3 rounded" alt="fox" />
+          </div>
+        </div>
+      </div>
+      <div class="section-learn-more">
+        <h4>
+          To find out more about the Black Forest region, check this website
+        </h4>
+        <h6>
+          ...did you know that the Feldberg ist the highest mountain in the
+          Black Forest? It is 1493 m high. In summer hikes around the moutain
+          and the lake are very popular. In winter snow is perfect for skiing or
+          sledging.
+        </h6>
+        <p>
+          <button class="btn-btn-primary mt-3">
+            <a
+              href="https://www.schwarzwald-tourismus.info/"
+              target="_blank"
+              title="Learn more"
+              >Learn more</a
+            >
+          </button>
+        </p>
+      </div>
+
+      <div class="container-2">
+        <div class="row mt-5 text-center">
+          <div class="col mb-5">
+            <img
+              src="src/muenster-2.jpg"
+              class="img-fluid mb-3 rounded"
+              alt="Münster"
+            />
+          </div>
+          <div class="col mb-5">
+            <img
+              src="src/alley.jpg"
+              class="img-fluid mb-3 rounded"
+              alt="Street"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="section-learn-more">
+        <h4>Freiburg is one of the greenest cities in Germany</h4>
+        <h6>
+          ...did you know that the suburb of Vauban is mostly car free and that
+          the buildings are all low-energy buildings? The city center can be
+          visited best on foot or by bike to enjoy the little streets, called
+          "Gässle" and follows the canals around the city called "Bächle".
+        </h6>
+        <p>
+          <button class="btn-btn-primary mt-3">
+            <a
+              href="https://www.freiburg.de/pb/,Lde/205243.html"
+              target="_blank"
+              title="Learn more"
+            >
+              Learn more</a
+            >
+          </button>
+        </p>
+      </div>
+
+      <footer>
+        <p class="text-center mt-5">
+          This website was coded by Elise Petitjean
+          <a
+            href="https://www.linkedin.com/in/elisepetitjean"
+            target="_blank"
+            title="LinkedIn profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </p>
+      </footer>
+    </div>
+    <script>
+      let Question = prompt(
+        "Have you ever been to Freiburg or the Black Forest?"
+      );
+      Question = Question.trim();
+
+      if (Question === "no") {
+        alert("Too bad for you");
+      } else {
+        alert("I hope you enjoyed your stay!");
+      }
+    </script>
+  </body>
+</html>
